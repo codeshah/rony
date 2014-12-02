@@ -1,0 +1,174 @@
+body{
+	margin:0 auto;
+	padding:0;
+	width: 937px;
+	font-family: 'Open Sans';
+}
+
+.redline{
+	background: url(img/line.png) repeat-x maroon;
+	height: 15px;
+}
+
+.social{
+	list-style: none;
+	float: right;
+	margin:0 100px;
+}
+
+.social li{
+	display: inline;
+}
+
+.logo, .title, .round,{
+	margin-left: 20px;
+}
+
+.logo{
+	position: relative;
+	top: 32px;
+}
+
+.title{
+	color: red;
+	font-family: verdana;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 26.5px;
+	line-height: 35px;
+	letter-spacing: -2px;
+	width: 320px;
+	height: 220px;
+	float: left;
+	margin-top: 125px;
+}
+
+.round{
+	float: left;
+	margin-top: 50px;
+}
+
+.text{
+	clear: both;
+	margin: 325px 0 0 30px;
+}
+
+.paper{
+	width: 120px;
+	display: inherit;
+	float: left;
+}
+
+.container{
+	float: left;
+	width: 380px;
+	margin-left:45px;
+}
+
+.container p, .container ul{
+	font-size: 14px;
+	color: #5b6770;
+}
+
+.container ul{
+	margin-left: 30px;
+	padding:5px;
+}
+
+.six{
+	clear: both;
+	margin-top: 50px;
+}
+.six p{
+	background: #dedede;
+	padding: 10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width:520px;
+}
+
+span.light{
+	color: #5b6770;
+}
+
+aside{
+	background: #eee;
+	border-radius:10px;
+	padding: 15px;
+	width: 300px;
+	position: absolute;
+	top:80px;
+	left: 800px;
+	height: 100%;
+}
+
+aside h3{
+	line-height: 2em;
+	color: #5b6770;
+}
+
+aside p{
+	color: #5b6770;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+small{
+	font-size: 12px;
+}
+
+.data{
+	color: red;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+}
+
+aside label{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+aside input{
+	border-radius: 3px;
+	border:1px #ccc solid;
+	height: 18px;
+	padding: 5px;
+	display: block;
+}
+
+aside hr{
+	margin-top: 20px;
+	 border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+aside button{
+	background: red;
+	color: white;
+	border-radius: 4px;
+	padding: 10px;
+	display: block;
+	border: none;
+	font-size: 18px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.disclaimar{
+	color: red;
+}
+
+footer{
+	width: 580px;
+	margin-top: 50px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
+	padding: 10px;
+}
